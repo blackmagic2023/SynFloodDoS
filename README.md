@@ -19,7 +19,7 @@ A multi-threaded TCP SYN flood tool designed to stress-test networks by sending 
 To compile the program, ensure you have `gcc` installed, then run:
 
 ```bash
-gcc -o synflood_threaded synflood_threaded.c -lpthread
+gcc -o synflood synflood_threaded.c -lpthread
 ```
 
 # Usage
@@ -27,7 +27,7 @@ gcc -o synflood_threaded synflood_threaded.c -lpthread
 To run the tool, you need to have root or administrator privileges. Example usage:
 
 ```bash
-sudo ./synflood_threaded
+sudo ./synflood
 ```
 
 You will be prompted to enter:
